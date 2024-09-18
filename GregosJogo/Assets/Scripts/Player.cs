@@ -8,13 +8,13 @@ public class Player : MonoBehaviour
     Vector3 strafe;
     Vector3 vertical;
 
-    float forwardSpeed = 5f;
-    float strafeSpeed = 5f;
+    public float forwardSpeed = 15f;
+    public float strafeSpeed = 15f;
 
     float gravity;
     float jumpSpeed;
-    float maxJumpHeight = 2f;
-    float timeToMaxHeight = 0.5f;
+    public float maxJumpHeight = 2f;
+    public float timeToMaxHeight = 0.5f;
     
     CharacterController controller;
     void Start()
